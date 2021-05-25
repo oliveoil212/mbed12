@@ -8,7 +8,7 @@ n = int(end/Ts)+1;
 x = np.linspace(0, end, num=n) # signal vector
 
 # TODO: revise this array to your results
-y = np.array([0.558, 4.783, 7.6533,  7.255,  7.733,  8.052]) # speed vector
+y = np.array([0.00, 6.059, 7.334,  6.856,  7.175,  7.175]) # speed vector
 
 z = np.polyfit(x, y, 2) # Least squares polynomial fit, and return the coefficients.
 
